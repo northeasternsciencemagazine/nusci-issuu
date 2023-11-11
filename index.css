@@ -3,9 +3,10 @@ body {
 }
 
 .issue {
-  width: 300px;
-  height: 500px;
+  width: 425px;
+  height: 550px;
   border: 1px solid #ffffff;
+  margin: 10px 10px 10px 10px;
 }
 
 #issuu {
