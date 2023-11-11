@@ -5,7 +5,7 @@ body {
 .issue {
   width: 340px;
   height: 440px;
-  margin: 10px 10px 10px 10px;
+  margin: 15px 15px 15px 15px;
 }
 
 #issuu {
@@ -68,5 +68,11 @@ body {
 }
 
 .issue-button:hover {
+  transition: transform 0.1s;
   transform: scale(1.05);
+}
+
+.issue-button:not(:hover) {
+  transition: transform 0.1s;
+  transform: scale(1);
 }
