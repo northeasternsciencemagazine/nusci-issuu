@@ -70,9 +70,32 @@ body {
 .issue-button:hover {
   transition: transform 0.1s;
   transform: scale(1.05);
+  box-shadow: 10px 10px 10px blue;
 }
 
 .issue-button:not(:hover) {
   transition: transform 0.1s;
   transform: scale(1);
+  box-shadow: 10px 10px 10px grey;
+}
+
+#nusci {
+  width: 200px;
+  height: 200px;
+  vertical-align: middle;
+}
+
+#title {
+  color: #ffffff;
+  padding-left: 150px;
+  position: relative;
+  text-align: center;
+  font-size: 75px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logo {
+  display: inline-flex;
+  justify-items: center;
+  align-items: center;
 }

@@ -17,6 +17,7 @@ window.addEventListener("load", () => {
         '.pdf#toolbar=0&navpanes=0&scrollbar=0&statusbar=0&messages=0&scrollbar=0"/>';
       document.getElementById("overlay").style.display = "block";
       document.getElementById("issuu").style.display = "none";
+      document.getElementById("logo").style.display = "none";
       document.body.style.overflow = "hidden";
     });
   }
@@ -30,6 +31,7 @@ window.addEventListener("load", () => {
   document.getElementById("close-overlay").addEventListener("click", () => {
     document.getElementById("overlay").style.display = "none";
     document.getElementById("issuu").style.display = "flex";
+    document.getElementById("logo").style.display = "flex";
     document.body.style.overflow = "";
   });
 });
