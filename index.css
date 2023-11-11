@@ -1,0 +1,63 @@
+body {
+  background-color: #000000;
+}
+
+.issue {
+  width: 300px;
+  height: 500px;
+  border: 1px solid #ffffff;
+}
+
+#issuu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+}
+
+#pdf-display {
+  width: 45vw;
+  height: 90vh;
+}
+
+#pdf-container {
+  padding-top: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#overlay {
+  display: none;
+  background-color: #000000;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#close-overlay {
+  position: absolute;
+  right: 100px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 0px;
+  transition: transform 0.3s;
+  background: #ffffff;
+  border-color: #000000;
+  border-width: 5px;
+  color: #000000;
+  font-family: Monaco, monospace;
+  font-size: 30px;
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: #cccccc;
+  transform: scale(1.05);
+}
