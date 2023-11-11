@@ -1,10 +1,14 @@
+
 window.addEventListener("load", () => {
   const buttons = document.getElementsByClassName("issue-button");
 
-  console.log(buttons);
+  /* 
+  Upon loading we create an event listener for each of our images such that upon 
+  clicking the pdf, the overlay div we created gets embedded with the respective 
+  pdf so that the user can read the pdf of the NU Sci issue they clicked on 
+  */
 
   for (let i = 0; i < buttons.length; i += 1) {
-    console.log(buttons[i]);
     buttons[i].addEventListener("click", () => {
       var issueName = "issue" + (i + 1);
       document.getElementById("pdf-container").innerHTML =
@@ -16,6 +20,12 @@ window.addEventListener("load", () => {
       document.body.style.overflow = "hidden";
     });
   }
+
+  /* 
+  Another listener event is added so that when we are on the overlay view and 
+  we click on the "X" button, the overlay stops being displayed, essentially we've
+  exited out of the overlay. 
+  */
 
   document.getElementById("close-overlay").addEventListener("click", () => {
     document.getElementById("overlay").style.display = "none";
