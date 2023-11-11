@@ -10,7 +10,8 @@ window.addEventListener("load", () => {
 
   for (let i = 0; i < buttons.length; i += 1) {
     buttons[i].addEventListener("click", () => {
-      var issueName = "issue" + (i + 1);
+      console.log(buttons.length);
+      var issueName = "issue" + (buttons.length - i);
       document.getElementById("pdf-container").innerHTML =
         '<embed id="pdf-display" src="issues/' +
         issueName +
