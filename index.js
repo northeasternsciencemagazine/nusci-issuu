@@ -35,6 +35,7 @@ window.addEventListener("load", () => {
     document.getElementById("overlay").style.display = "none";
     document.getElementById("issuu").style.display = "flex";
     document.getElementById("logo").style.display = "flex";
+    document.getElementById("divider").style.display = "block";
     document.body.style.overflow = "";
   });
 });
