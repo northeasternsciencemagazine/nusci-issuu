@@ -5,7 +5,10 @@ body {
 .issue {
   width: 340px;
   height: 440px;
-  margin: 20px 20px 20px 20px;
+  margin: 30px 30px 30px 30px;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
 #issuu {
@@ -67,20 +70,27 @@ body {
   width: 100%;
   position: relative;
   z-index: 2;
+  top: 0;
+  left: 0;
 }
 
-.issue-dup {
+.issue-background {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
   position: absolute;
-  top: 2px;
+  top: 0px;
   left: 0px;
 }
 
 .issue-button:hover {
-  position: relative;
-  z-index: 2;
-  transition: transform 0.1s;
   transform: scale(1.05);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.issue-button:hover+.issue-background {
+  transition: transform 0.1s;
+  transform: scale(1.15);
+  filter: blur(16px);
 }
 
 .issue-button:not(:hover) {
@@ -116,16 +126,3 @@ body {
   justify-items: center;
   align-items: center;
 }
-<<<<<<< HEAD
-
-.issue-dup:hover {
-  position: absolute;
-  left: 0px;
-  z-index: 1;
-  top: 2px;
-  transition: transform 0.1s;
-  transform: scale(1.05);
-  filter: blur(16px);
-}
-=======
->>>>>>> eb2fdb633a55079a1b006a86a34505b7923b797e
