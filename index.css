@@ -87,14 +87,15 @@ body {
   transform: scale(1.05);
 }
 
-.issue-button:hover+.issue-background {
+.issue-button:hover + .issue-background {
   transition: transform 0.1s;
-  transform: scale(1.15);
+  transform: scale(1.08);
   filter: blur(16px);
 }
 
 .issue-button:not(:hover) {
-  box-shadow: 10px 10px 10px grey;
+  transition: transform 0.1s;
+  transform: scale(1);
 }
 
 .hr {
