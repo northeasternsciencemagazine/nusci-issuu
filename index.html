@@ -1,33 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NU Sci Issues</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="index.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NU Sci Issues</title>
-  <link href="index.css" rel="stylesheet" type="text/css" />
-  <script src="index.js"></script>
-</head>
-
-<body>
-  <!-- Overlays the PDF user is currently looking at on top of the
+  <body>
+    <!-- Overlays the PDF user is currently looking at on top of the
     issues. Also provides an X button to exit out of current pdf -->
-  <div id="overlay">
-    <div id="pdf-container"></div>
-    <button class="btn" id="close-overlay">X</button>
-  </div>
-
-  <!-- The NU Sci logo and title for the website -->
-  <div id="logo">
-    <h1 id="title"> <img id="nusci" src="nusci-logo.png" />NU Sci Magazine's Print Archive</h1>
-  </div>
-
-  <!--  Contains all of the issues in separate divs with individual thumbails so 
-    users know what they're clicking on -->
-  <div id="issuu">
-    <div class="issue">
-      <img id="issue-51" class="issue-button" src="thumbnails/issue51.png" />
+    <div id="overlay">
+      <div id="pdf-container"></div>
+      <button class="btn" id="close-overlay">X</button>
     </div>
+
+    <!-- The NU Sci logo and title for the website -->
+    <div id="logo">
+      <h1 id="title">
+        <img id="nusci" src="nusci-logo.png" />NU Sci Magazine's Print Archive
+      </h1>
+    </div>
+
+    <hr class="hr" id="divider" />
+
+    <!--  Contains all of the issues in separate divs with individual thumbails so 
+    users know what they're clicking on -->
+    <div id="issuu">
+      <div class="issue">
+        <img id="issue-51" class="issue-button" src="thumbnails/issue51.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-50" class="issue-button" src="thumbnails/issue50.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-49" class="issue-button" src="thumbnails/issue49.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-48" class="issue-button" src="thumbnails/issue48.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-47" class="issue-button" src="thumbnails/issue47.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-46" class="issue-button" src="thumbnails/issue46.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-45" class="issue-button" src="thumbnails/issue45.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-44" class="issue-button" src="thumbnails/issue44.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-43" class="issue-button" src="thumbnails/issue43.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-42" class="issue-button" src="thumbnails/issue42.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-41" class="issue-button" src="thumbnails/issue41.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-40" class="issue-button" src="thumbnails/issue40.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-39" class="issue-button" src="thumbnails/issue39.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-38" class="issue-button" src="thumbnails/issue38.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-37" class="issue-button" src="thumbnails/issue37.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-36" class="issue-button" src="thumbnails/issue36.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-35" class="issue-button" src="thumbnails/issue35.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-34" class="issue-button" src="thumbnails/issue34.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-33" class="issue-button" src="thumbnails/issue33.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-32" class="issue-button" src="thumbnails/issue32.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-31" class="issue-button" src="thumbnails/issue31.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-30" class="issue-button" src="thumbnails/issue30.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-29" class="issue-button" src="thumbnails/issue29.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-28" class="issue-button" src="thumbnails/issue28.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-27" class="issue-button" src="thumbnails/issue27.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-26" class="issue-button" src="thumbnails/issue26.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-25" class="issue-button" src="thumbnails/issue25.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-24" class="issue-button" src="thumbnails/issue24.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-23" class="issue-button" src="thumbnails/issue23.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-22" class="issue-button" src="thumbnails/issue22.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-21" class="issue-button" src="thumbnails/issue21.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-20" class="issue-button" src="thumbnails/issue20.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-19" class="issue-button" src="thumbnails/issue19.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-18" class="issue-button" src="thumbnails/issue18.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-17" class="issue-button" src="thumbnails/issue17.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-16" class="issue-button" src="thumbnails/issue16.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-15" class="issue-button" src="thumbnails/issue15.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-14" class="issue-button" src="thumbnails/issue14.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-13" class="issue-button" src="thumbnails/issue13.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-12" class="issue-button" src="thumbnails/issue12.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-11" class="issue-button" src="thumbnails/issue11.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-10" class="issue-button" src="thumbnails/issue10.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-9" class="issue-button" src="thumbnails/issue9.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-8" class="issue-button" src="thumbnails/issue8.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-7" class="issue-button" src="thumbnails/issue7.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-6" class="issue-button" src="thumbnails/issue6.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-5" class="issue-button" src="thumbnails/issue5.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-4" class="issue-button" src="thumbnails/issue4.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-3" class="issue-button" src="thumbnails/issue3.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-2" class="issue-button" src="thumbnails/issue2.png" />
+      </div>
+
+      <div class="issue">
+        <img id="issue-1" class="issue-button" src="thumbnails/issue1.png" />
+      </div>
+    </div>
+<<<<<<< HEAD
 
     <div class="issue">
       <img id="issue-50" class="issue-button" src="thumbnails/issue50.png" />
@@ -236,3 +441,7 @@
 </body>
 
 </html>
+=======
+  </body>
+</html>
+>>>>>>> eb2fdb633a55079a1b006a86a34505b7923b797e

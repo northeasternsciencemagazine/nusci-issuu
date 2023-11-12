@@ -87,6 +87,14 @@ body {
   box-shadow: 10px 10px 10px grey;
 }
 
+.hr {
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 75vw;
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
+
 #nusci {
   width: 200px;
   height: 200px;
@@ -99,7 +107,8 @@ body {
   position: relative;
   text-align: center;
   font-size: 75px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 #logo {
@@ -107,6 +116,7 @@ body {
   justify-items: center;
   align-items: center;
 }
+<<<<<<< HEAD
 
 .issue-dup:hover {
   position: absolute;
@@ -117,3 +127,5 @@ body {
   transform: scale(1.05);
   filter: blur(16px);
 }
+=======
+>>>>>>> eb2fdb633a55079a1b006a86a34505b7923b797e
