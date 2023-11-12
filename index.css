@@ -79,6 +79,14 @@ body {
   box-shadow: 10px 10px 10px grey;
 }
 
+.hr {
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 75vw;
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
+
 #nusci {
   width: 200px;
   height: 200px;
@@ -91,7 +99,8 @@ body {
   position: relative;
   text-align: center;
   font-size: 75px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 #logo {

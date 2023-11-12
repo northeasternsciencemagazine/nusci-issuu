@@ -1,4 +1,3 @@
-
 window.addEventListener("load", () => {
   const buttons = document.getElementsByClassName("issue-button");
 
@@ -12,13 +11,16 @@ window.addEventListener("load", () => {
     buttons[i].addEventListener("click", () => {
       console.log(buttons.length);
       var issueName = "issue" + (buttons.length - i);
+
       document.getElementById("pdf-container").innerHTML =
         '<embed id="pdf-display" src="issues/' +
         issueName +
         '.pdf#toolbar=0&navpanes=0&scrollbar=0&statusbar=0&messages=0&scrollbar=0"/>';
+
       document.getElementById("overlay").style.display = "block";
       document.getElementById("issuu").style.display = "none";
       document.getElementById("logo").style.display = "none";
+      document.getElementById("divider").style.display = "none";
       document.body.style.overflow = "hidden";
     });
   }
