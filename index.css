@@ -87,9 +87,9 @@ body {
   transform: scale(1.05);
 }
 
-.issue-button:hover+.issue-background {
+.issue-button:hover + .issue-background {
   transition: transform 0.1s;
-  transform: scale(1.1);
+  transform: scale(1.09);
   filter: blur(16px);
 }
 
@@ -123,6 +123,12 @@ body {
 }
 
 #logo {
+  display: inline-flex;
+  justify-items: center;
+  align-items: center;
+}
+
+#nusci {
   display: inline-flex;
   justify-items: center;
   align-items: center;

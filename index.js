@@ -1,4 +1,18 @@
 window.addEventListener("load", () => {
+  var isMobile =
+    "ontouchstart" in document.documentElement &&
+    /mobi/i.test(navigator.userAgent);
+
+  if (isMobile) {
+    document.getElementById("logo").style.display = "block";
+    document.getElementById(
+      "logo"
+    ).innerHTML = `<img id="nusci" src="nusci-logo.png" /><br /><h1 id="title"> NU Sci Magazine's Print Archive </h1>`;
+
+    document.getElementById("title").style.fontSize = "20px";
+    document.getElementById("title").style.paddingLeft = "0px";
+  }
+
   const buttons = document.getElementsByClassName("issue-button");
 
   /* 
